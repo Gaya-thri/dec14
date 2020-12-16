@@ -20,7 +20,8 @@
             background-color:brown;
             color:white;
         }
-        #Table2 {
+        .Table2,.tb1,#iD1,.tb2,#iD2,.tb3,#iD3,#iD4,.tb4,#iD5,#iD6,.tb5,#iD7,#iD8,.tb6,#iD9,#iD10,.tb7,#iD11,#iD12,.tb8,#iD13,#iD14{
+            border:none;
             border-collapse:collapse;
             font-family:Arial;
             font-size:13px;
@@ -34,7 +35,7 @@
         <header>Request For NEW PAN card Or/And changes or Correction in PAN Data
         <br>Fields marked with * (asterisk) are mandatory. . To avoid mistake(s), please refer <a href=""><font color=orange>guidelines</font></a> and <a href=""><font color=orange>instructions.</font></a>
     </header>
-    <table width=98%>
+    <table width=98% class="tabl1">
         <tr>
             <td></td>
             <td colspan="2">
@@ -704,68 +705,68 @@
             </td>
         </tr>
     </table>
-    <table id="#Table2">
-        <tr>
-            <td colspan="4">
+    <table class="#Table2" style="border:none;">
+        <tr class="tb1">
+            <td colspan="4" id="iD1">
                 <label for="pap">For paperless pan application
                 </label>
                 <input type="radio" name="pap">Yes</input>
                 <input type="radio" name="pap">No</input>
             </td>
         </tr>
-        <tr>
-            <td colspan="4">
+        <tr class="tb2">
+            <td colspan="4" id="iD2">
             <input type="radio">DSC</input> 
             <select name="ot" id="ot">
                 <option value="ps">Please select</option>
             </select>
             </td>
         </tr>
-         <tr>
-                <td>
+         <tr class="tb3">
+                <td id="iD3">
                     Upload photo
                 </td>
-                <td>
+                <td id="iD4">
                     <input type="file" id="myfile" name="myfile">
                 </td>
             </tr>
-            <tr>   
-                <td>
+            <tr class="tb4">   
+                <td id="iD5">
                     Upload signature
                 </td>
-                <td>
+                <td id="iD6">
                     <input type="file" id="myfile" name="myfile">
                 </td>
             </tr>
-            <tr>
-                <td>
+            <tr class="tb5">
+                <td id="iD7">
                     Upload document
                 </td>
-                <td>
+                <td id="iD8">
                     <input type="file" id="myfile" name="myfile">
                 </td> 
             </tr>
-            <tr>
-                <td>
+            <tr class="tb6">
+                <td id="iD9">
                 <label for="pht">Already Uploaded Photo</label>
                 </td>
-                <td>
+                <td id="iD10">
                 <input type="text" name="pht" id="pht"> 
                 </td>
             </tr>
-            <tr>
-                <td>
+            <tr class="tb7">
+                <td id="iD11">
                 <label for="sht">Already Uploaded Signature</label>
                 </td>
-                <td>
+                <td id="iD12">
                 <input type="text" name="sht" id="sht"> 
                 </td>
             </tr>
-            <tr>
-                <td>
+            <tr class="tb8">
+                <td id="iD13">
                 <label for="dht">Already Uploaded Documents</label>
                 </td>
-                <td>
+                <td id="iD14">
                 <input type="text" name="dht" id="dht"><br>
                 </td>
             </tr>
